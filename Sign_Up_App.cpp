@@ -84,7 +84,7 @@ case option::add_record:
         std::cout<<"Please enter user ID: \n";
         std::cout<<"User ID: ";
         std::cin>>user_ID;
-        if(user_ID<0 || user_ID>num_users){
+        if(user_ID<=0 || user_ID>num_users){
             std::cout<<"Invalid User ID \n \n";
             break ;
             }
